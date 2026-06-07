@@ -458,7 +458,7 @@ function renderSummary(){
 function genWAText(){
   let t='🍽 食飯計數\n━━━━━━━━━━━━\n';
   S.names.forEach(n=>{ const d=S.summary[n]||{total:0}; t+=`${n}：$${d.total.toFixed(1)}\n`; });
-  t+='\n請盡快轉帳，謝謝 🙏';
+  t+='\n謝謝 🙏';
   return t;
 }
 function updWA(){}
